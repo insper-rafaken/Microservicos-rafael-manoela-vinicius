@@ -1,0 +1,9 @@
+site_name: Microserviços
+site_description: Documentação do projeto
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Sobre: about.md
