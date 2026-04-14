@@ -1,0 +1,3 @@
+[submodule "api/order"]
+	path = api/order
+	url = https://github.com/insper-rafaken/order.git
