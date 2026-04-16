@@ -1,6 +1,3 @@
 [submodule "api/order"]
 	path = api/order
 	url = https://github.com/insper-rafaken/order.git
-[submodule "api/order-service"]
-	path = api/order-service
-	url = https://github.com/rafa-ken/order-service.git
