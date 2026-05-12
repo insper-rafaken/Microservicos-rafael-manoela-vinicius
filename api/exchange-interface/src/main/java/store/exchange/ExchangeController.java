@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 @FeignClient(
     name = "exchange",
-    url = "http://exchange:8080"
+    url = "${exchange.url}"
 )
 public interface ExchangeController {
 
