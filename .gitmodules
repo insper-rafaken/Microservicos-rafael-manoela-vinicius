@@ -1,12 +1,12 @@
 [submodule "api/order"]
-	path = api/order
+	path = api/order/order
 	url = https://github.com/insper-rafaken/order.git
 [submodule "api/product"]
-	path = api/product
+	path = api/product/product
 	url = https://github.com/insper-rafaken/product.git
 [submodule "api/order-service"]
-	path = api/order-service
+	path = api/order/order-service
 	url = https://github.com/insper-rafaken/order-service.git
 [submodule "api/exchange"]
-	path = api/exchange
+	path = api/exchange/exchange
 	url = https://github.com/vin1ciusL/exchange.git
