@@ -20,7 +20,3 @@ spring:
       hibernate:
         default_schema: products
 
-  security:
-    user:
-      name: ${SECURITY_USERNAME:admin}
-      password: ${SECURITY_PASSWORD:admin123}

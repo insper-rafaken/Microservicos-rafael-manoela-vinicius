@@ -55,8 +55,6 @@ services:
       DATABASE_DB: product
       DATABASE_USERNAME: product
       DATABASE_PASSWORD: product123
-      SECURITY_USERNAME: admin
-      SECURITY_PASSWORD: admin123
     depends_on:
       product-db:
         condition: service_healthy
