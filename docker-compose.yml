@@ -16,7 +16,7 @@ services:
   order:
     build:
       context: .
-      dockerfile: api/order-service/Dockerfile
+      dockerfile: api/order/order-service/Dockerfile
     ports:
       - "8081:8081"
     environment:
@@ -46,7 +46,7 @@ services:
   product:
     build:
       context: .
-      dockerfile: api/product-service/Dockerfile
+      dockerfile: api/product/product-service/Dockerfile
     ports:
       - "8080:8080"
     environment:
@@ -68,7 +68,7 @@ services:
 
   exchange:
     build:
-      context: api/exchange
+      context: api/exchange/exchange
       dockerfile: Dockerfile
     ports:
       - "8082:8080"
