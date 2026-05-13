@@ -10,3 +10,18 @@
 [submodule "api/exchange"]
 	path = api/exchange/exchange
 	url = https://github.com/vin1ciusL/exchange.git
+[submodule "api/account/account"]
+	path = api/account/account
+	url = https://github.com/insper-rafaken/account.git
+[submodule "api/account/account-service"]
+	path = api/account/account-service
+	url = https://github.com/insper-rafaken/account-service.git
+[submodule "api/auth/auth"]
+	path = api/auth/auth
+	url = https://github.com/insper-rafaken/auth.git
+[submodule "api/auth/auth-service"]
+	path = api/auth/auth-service
+	url = https://github.com/insper-rafaken/auth-service.git
+[submodule "api/gateway/gateway-service"]
+	path = api/gateway/gateway-service
+	url = https://github.com/insper-rafaken/gateway-service.git
