@@ -15,7 +15,7 @@
     <name>exchange</name>
 
     <properties>
-        <java.version>24</java.version>
+        <java.version>25</java.version>
         <spring-cloud.version>2025.1.1</spring-cloud.version>
         <maven.compiler.proc>full</maven.compiler.proc>
     </properties>
