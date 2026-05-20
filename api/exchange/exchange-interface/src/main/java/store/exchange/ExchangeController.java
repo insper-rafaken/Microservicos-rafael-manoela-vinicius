@@ -16,7 +16,7 @@ public interface ExchangeController {
     ResponseEntity<ExchangeOut> getExchange(
         @PathVariable String from,
         @PathVariable String to,
-        @RequestHeader("Authorization") String authorization
+        @RequestHeader("id-account") String idAccount
     );
 
 }
