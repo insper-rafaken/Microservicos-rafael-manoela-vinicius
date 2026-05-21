@@ -15,6 +15,17 @@ services:
       timeout: 5s
       retries: 10
 
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
   order:
     build:
       context: .
@@ -27,8 +38,11 @@ services:
       DATABASE_DB: order
       DATABASE_USERNAME: order
       DATABASE_PASSWORD: order123
+      RABBITMQ_HOST: rabbitmq
     depends_on:
       order-db:
+        condition: service_healthy
+      rabbitmq:
         condition: service_healthy
 
   product-db:
