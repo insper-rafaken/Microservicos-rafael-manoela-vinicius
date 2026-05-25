@@ -25,3 +25,6 @@
 [submodule "api/gateway/gateway-service"]
 	path = api/gateway/gateway-service
 	url = https://github.com/insper-rafaken/gateway-service.git
+[submodule "api/product/product-service"]
+	path = api/product/product-service
+	url = https://github.com/insper-rafaken/product-service.git
