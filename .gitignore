@@ -44,3 +44,12 @@ Thumbs.db
 # Logs
 # --------------------
 *.log
+
+# --------------------
+# Untracked submodule content
+# --------------------
+api/order/src/
+api/order/pom.xml
+api/order/LICENSE
+api/order/README.md
+api/order-service/
