@@ -25,3 +25,6 @@
 [submodule "api/gateway/gateway-service"]
 	path = api/gateway/gateway-service
 	url = https://github.com/insper-rafaken/gateway-service.git
+[submodule "api-exchange-interface"]
+	path = api/exchange/exchange-interface
+	url = https://github.com/vin1ciusL/exchange-interface.git
