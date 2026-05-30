@@ -15,7 +15,10 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/main']],
                     extensions: [[$class: 'SubmoduleOption', recursiveSubmodules: true, trackingSubmodules: true]],
-                    userRemoteConfigs: [[url: 'https://github.com/insper-rafaken/Microservicos-rafael-manoela-vinicius.git']]
+                    userRemoteConfigs: [[
+                        url: 'https://github.com/insper-rafaken/Microservicos-rafael-manoela-vinicius.git',
+                        credentialsId: 'github-credentials'
+                    ]]
                 ])
             }
         }
