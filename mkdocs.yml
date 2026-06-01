@@ -43,6 +43,8 @@ nav:
   - Arquitetura: architecture.md
   - Serviços:
     - Order API: services/order.md
+    - Product API: services/product.md
+    - Exchange API: services/exchange.md
     - Gateway: services/gateway.md
     - Auth: services/auth.md
     - Account: services/account.md
