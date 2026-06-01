@@ -1,9 +1,57 @@
-site_name: Microserviços
-site_description: Documentação do projeto
+site_name: Store — Microserviços
+site_description: Documentação do projeto de Microserviços — Insper 2026.1
 
 theme:
   name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
 
 nav:
   - Home: index.md
-  - Sobre: about.md
+  - Arquitetura: architecture.md
+  - Serviços:
+    - Order API: services/order.md
+    - Gateway: services/gateway.md
+    - Auth: services/auth.md
+    - Account: services/account.md
+  - Infraestrutura:
+    - AWS: infra/aws.md
+    - EKS: infra/eks.md
+    - CI/CD Jenkins: infra/cicd.md
+  - Bottlenecks: bottlenecks.md
+  - Load Testing: load-testing.md
+  - Custos & PaaS:
+    - Custos: costs.md
+    - PaaS: paas.md
