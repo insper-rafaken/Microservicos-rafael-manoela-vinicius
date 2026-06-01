@@ -93,6 +93,6 @@ graph TD
 
 ---
 
-## Vídeos
+## Vídeo de Apresentação
 
-🎥 Vídeo de apresentação do projeto (2-3 min) será adicionado aqui
+[![Apresentação do Projeto](https://img.youtube.com/vi/8GVlpTc6i2U/0.jpg)](https://www.youtube.com/watch?v=8GVlpTc6i2U)
