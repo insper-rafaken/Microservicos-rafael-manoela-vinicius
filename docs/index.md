@@ -95,4 +95,6 @@ graph TD
 
 ## Vídeo de Apresentação
 
-[![Apresentação do Projeto](https://img.youtube.com/vi/8GVlpTc6i2U/0.jpg)](https://www.youtube.com/watch?v=8GVlpTc6i2U)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/8GVlpTc6i2U" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>

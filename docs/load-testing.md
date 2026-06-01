@@ -104,4 +104,6 @@ O escalonamento horizontal garante que a plataforma suporte picos de tráfego se
 
 ## Vídeo do Teste de Carga
 
-[![Load Testing HPA](https://img.youtube.com/vi/-anKoL_Rmfk/0.jpg)](https://www.youtube.com/watch?v=-anKoL_Rmfk)
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/-anKoL_Rmfk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
